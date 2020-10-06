@@ -6,10 +6,18 @@ channels:
 dependencies:
   - python=3.7
   - pip
-  # Core scientific python
+  # scientific python
   - numpy
   - h5py
   - pandas
-  - geopandas
+  # plotting
   - matplotlib
+  - plotly
+  # geospatial python
+  - alphashape
   - gdal
+  - geopandas
+  - geojson
+  - rasterstats
+  - scikit-image
+  - shapely  
