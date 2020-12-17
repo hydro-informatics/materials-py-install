@@ -2,6 +2,7 @@ name: hypy
 channels:
   - conda-forge
   - defaults
+  - anaconda
 
 dependencies:
   - python=3.7
@@ -10,8 +11,10 @@ dependencies:
   - numpy
   - h5py
   - pandas
-  # spreadsheet editing
+  # workbook editing
   - openpyxl
+  - xlrd
+  - xlsxwriter
   # plotting
   - matplotlib
   - plotly
